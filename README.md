@@ -1,50 +1,49 @@
-List
-    Array List
-    Linked List
-    Skip List
-    Perfect Skip List
-    Randomized Skip List
-    Frugal Skip List
+> **List**
+> * Array List
+> * Linked List
+> * Skip List
+> * Perfect Skip List
+> * Randomized Skip List
+> * Frugal Skip List
 
-Stack
-    Array Stack
-    Linked Stack
+> **Stack**
+> * Array Stack
+> * Linked Stack
 
-Queue
-    Array Queue
-    Linked Queue
-    Circular Queue
+> **Queue**
+> * Array Queue
+> * Linked Queue
+> *Circular Queue
 
-Heap
-    Priority Queue
+> **Heap**
+> * Priority Queue
 
-Hash
-    Linear Probing
-    Chaining
+> **Hash**
+> * Linear Probing
+> * Chaining
 
-Sort
-    Insertion Sort
-    Selection Sort
-    Bubble Sort
-    Merge Sort
-    Heap Sort
-    Quick Sort
+> **Sort**
+> * Insertion Sort
+> * Selection Sort
+> * Bubble Sort
+> * Merge Sort
+> * Heap Sort
+> * Quick Sort
 
-Tree
-    BST
-    AVL Tree
-    Red-Black Tree
-    B-Tree
-    B+ Tree
-    Bw Tree
+> **Tree**
+> * BST
+> * AVL Tree
+> * Red-Black Tree
+> * B-Tree
+> * B+ Tree
+> * Bw Tree
 
-Graph
-    DFS
-    BFS
-    Topological Sort
-    MST
+> **Graph**
+> * DFS
+> * BFS
+> * MST
 
-SPP
-    APSP
-    SSSP
-    Dijkstra
+> **SPP**
+> * APSP
+> * SSSP
+> * Dijkstra
