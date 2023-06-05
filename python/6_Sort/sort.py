@@ -26,7 +26,8 @@ if __name__ == "__main__":
     SelectionSort = importlib.import_module("selection-sort").SelectionSort
     BubbleSort = importlib.import_module("bubble-sort").BubbleSort
     HeapSort = importlib.import_module("heap-sort").HeapSort
+    MergeSort = importlib.import_module("merge-sort").MergeSort
 
     nums = [8, 1, 4, 9, 0, 3, 5, 2, 7, 6]
-    s = Sort(BubbleSort(), nums)
+    s = Sort(MergeSort(), nums)
     s.run()
