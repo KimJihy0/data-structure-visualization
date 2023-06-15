@@ -15,23 +15,23 @@ class MergeSort(Strategy):
 
         def _merge(low, mid, high):
             temp = []
-            left_idx = low
-            right_idx = mid
+            left = low
+            right = mid
 
-            while left_idx < mid and right_idx < high:
-                if nums[left_idx] <= nums[right_idx]:
-                    temp.append(nums[left_idx])
-                    left_idx += 1
+            while left < mid and right < high:
+                if nums[left] <= nums[right]:
+                    temp.append(nums[left])
+                    left += 1
                 else:
-                    temp.append(nums[right_idx])
-                    right_idx += 1
+                    temp.append(nums[right])
+                    right += 1
 
-            while left_idx < mid:
-                temp.append(nums[left_idx])
-                left_idx += 1
-            while right_idx < high:
-                temp.append(nums[right_idx])
-                right_idx += 1
+            while left < mid:
+                temp.append(nums[left])
+                left += 1
+            while right < high:
+                temp.append(nums[right])
+                right += 1
 
             nums[low:high] = temp
 
