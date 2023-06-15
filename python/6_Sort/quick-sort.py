@@ -13,13 +13,21 @@ class QuickSort(Strategy):
             _sort(pivot+1, high)
 
         def _partition(low, high):
-            pivot = high - 1
+            pivot = low
+            left = low + 1
+            right = high - 1
 
-            for i in range(high - 2, -1, -1):
-                if nums[i] > nums[pivot]:
-                    nums[i], nums[pivot] = nums[pivot], nums[i]
-                    pivot = i
+            while left <= right:
+                while left < high and nums[left] < nums[pivot]:
+                    left += 1
+                while right > low and nums[right] > nums[pivot]:
+                    right -= 1
 
-            return pivot
+                if left > right:
+                    nums[right], nums[pivot] = nums[pivot], nums[right]
+                else:
+                    nums[left], nums[right] = nums[right], nums[left]
+
+            return right
 
         _sort(0, len(nums))
